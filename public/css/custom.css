@@ -1,0 +1,356 @@
+.sidebar::before, .sidebar::after, .off-canvas-sidebar::before, .off-canvas-sidebar::after{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%) !important;
+}
+.sidebar .nav li.active > a, .off-canvas-sidebar .nav li.active > a{
+    background-color: #2CA8FF !important;
+}
+.text-sm{
+    font-size: 14px !important;
+}
+.text-md{
+    font-size: 16px !important;
+}
+.text-lg{
+    font-size: 18px !important;
+}
+.btn-for-modal{
+    padding: 10px 12px;
+    margin-top: 0;
+}
+.btn-min{
+    padding: 4px 14px;
+}
+.w-100{
+    width: 100px !important;
+}
+.w-150{
+    width: 150px !important;
+}
+.wizard-tab-content{
+    border-top: 1px solid rgb(32, 64, 101);
+    margin-top: 15px;
+}
+.wizard-card-footer{
+    border-top: 1px solid #e9ecef !important;
+padding-top: 20px !important;
+}
+#preview img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px outset rgb(32, 64, 101);
+}
+#student-profile{
+    display: none;
+}
+.profile-holder{
+    text-align: center;
+    border: 1px solid #000;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+.vue-form-wizard .category {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 3px;
+    text-transform: inherit;
+}
+.custom-file-upload{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.full-page > .content {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    width: 100%;
+}
+.w-50{
+    width: 50px !important;
+}
+.stepTitle,.wizard-icon{
+    color: #555;
+}
+.blue{
+    color: #007bff;
+}
+.full-page{
+    background-image: url('../images/login_bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-blue{
+    background-color: #007bff;
+}
+#sidebar-wrapper{
+    overflow: hidden;
+}
+.btn-blue{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
+.filter-form{
+    display: flex;
+gap: 15px;
+}
+.filter-form .form-control{
+    border-radius: 5px;
+    height: 35px;
+    width: 180px;
+}
+.filter-form .btn{
+    background-color: #007bff;
+    margin: 0;
+}
+.populate .form-control, .populate select{
+    padding: 10px;
+}
+.p-blur{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+.modal-header{
+    padding: 10px 8px;
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+    color: #fff;
+}
+.modal-title{
+    font-size: 15px;
+    margin-top: 0;
+}
+.modal-header .close{
+    color: #fff;
+}
+.modal .btn-primary{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+    color: #fff;
+    padding: 8px 20px;
+}
+.modal .btn-default{
+    padding: 8px 20px;
+}
+.action{
+    width: 90px !important;
+    text-align: center;
+}
+.pagination{
+    margin-bottom: 0;
+}
+.pr-custom{
+    padding-right: 0;
+}
+.pl-custom{
+    padding-left: 0;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 7px;
+    padding-right: 2rem;
+}
+.pagination .active{
+    background-color: #007bff;
+    border-color: #17a2b8;
+}
+.page-item.active .page-link{
+    background-color: #007bff;
+    border-color: #17a2b8;
+}
+.pagination .page-link{
+    color: #007bff;
+}
+.flex{
+    display: flex;
+}
+.gray{
+   color: #888;
+}
+.justify-right{
+    justify-content: flex-end;
+}
+.ccolor{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
+.table th, .table td{
+    padding: 5px 10px;
+}
+.pointer{
+    cursor: pointer;
+}
+.nodata{
+    font-family: monospace;
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+    color: #fff;
+}
+.black{
+    color: #000;
+}
+.main-sidebar{
+    background-color: #036270;
+}
+.nav-item a p{
+    color: #fff !important;
+}
+.brand-link .brand-image{
+    padding: 2px;
+    background-color: #fff;
+}
+.brand-link span{
+    font-size: .8em;
+}
+.user-panel .info{
+    color: #fff ;
+    text-align: center;
+    width: 100%;
+}
+.user-panel .info span{
+    color: #aaa !important;
+    text-align: center;
+}
+.ascob{
+    background-image: url('../images/ascob.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 654px;
+}
+.hello-text{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.ascob-text{
+    font-size: 58px;
+    margin-bottom: 0;
+    font-weight: 900;
+    font-family: "Verdana";
+}
+.app-text{
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.w-full{
+    width: 100%;
+}
+.form-holder{
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 20px;
+}
+.text-holder{
+    padding-top: 20%;
+}
+.fee-form{
+padding: 10px;
+border: 1px solid #ddd;
+padding-bottom: 40px;
+}
+.btn-custom{
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 2px 20px;
+    float: inline-end;
+}
+.login-text{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Verdana";
+}
+.login-logo{
+    height: 100px;
+width: auto;
+display: block;
+margin: auto;
+}
+.btn-minus{
+    background-color: lightcoral;
+}
+.btn-plus,.btn-minus{
+    padding: 4px 7px;
+}
+.border-none{
+    border: none;
+}
+
+
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #2CA8FF;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .pr-custom{
+        padding-right: 15px;
+    }
+    .pl-custom{
+        padding-left: 15px;
+    }
+    .filter-form{
+        display: grid;
+        width: 100%;
+        grid-gap: 6px;
+    }
+    .filter-form .form-control{
+        width: 100%;
+        height: 38px;
+    }
+    .filter-form .btn{
+        height: 38px;
+    }
+  }
+  
